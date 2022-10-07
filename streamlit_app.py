@@ -1,9 +1,8 @@
 import streamlit as st
-
-#st.title('🎈 streamlit-option-menu')
-
-import streamlit as st
 from streamlit_option_menu import option_menu
+from streamlit_faker import get_streamlit_faker
+
+st_faker = get_streamlit_faker()
 
 # 1. as sidebar menu
 with st.sidebar:
@@ -17,6 +16,7 @@ selected2 = option_menu(None, ['Home', 'Upload', 'Tasks', 'Settings'],
     menu_icon="cast", default_index=0, orientation="horizontal")
 st.write('**You are here:**', selected2)
 
+
 # 3. CSS style definitions
 #selected3 = option_menu(None, ['Home', 'Upload',  'Tasks', 'Settings'], 
 #    icons=['house', 'cloud-upload', "list-task", 'gear'], 
@@ -28,3 +28,8 @@ st.write('**You are here:**', selected2)
 #        "nav-link-selected": {"background-color": "green"},
 #    }
 #)
+
+st.title('🎈 streamlit-option-menu')
+
+st_faker.markdown()
+st_faker.map()
