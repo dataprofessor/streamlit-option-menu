@@ -1,5 +1,6 @@
 streamlit
 streamlit-option-menu
+streamlit-extras
 streamlit-faker
 faker
 matplotlib
