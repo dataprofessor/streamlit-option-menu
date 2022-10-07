@@ -11,10 +11,10 @@ with st.sidebar:
     st.write('**You are here:**', selected)
     
 # 2. horizontal menu
-selected2 = option_menu(None, ['Home', 'Upload', 'Tasks', 'Settings'], 
-    icons=['house', 'cloud-upload', 'list-task', 'gear'], 
-    menu_icon="cast", default_index=0, orientation="horizontal")
-st.write('**You are here:**', selected2)
+#selected2 = option_menu(None, ['Home', 'Upload', 'Tasks', 'Settings'], 
+#    icons=['house', 'cloud-upload', 'list-task', 'gear'], 
+#    menu_icon="cast", default_index=0, orientation="horizontal")
+#st.write('**You are here:**', selected2)
 
 
 # 3. CSS style definitions
