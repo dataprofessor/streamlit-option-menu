@@ -2,7 +2,6 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_faker import get_streamlit_faker
 
-st_faker = get_streamlit_faker()
 
 # 1. as sidebar menu
 with st.sidebar:
@@ -30,6 +29,8 @@ with st.sidebar:
 #)
 
 st.title('🎈 streamlit-option-menu')
+
+st_faker = get_streamlit_faker()
 
 st_faker.subheader()
 st_faker.markdown()
