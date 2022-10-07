@@ -31,5 +31,9 @@ st.write('**You are here:**', selected2)
 
 st.title('🎈 streamlit-option-menu')
 
+st_faker.subheader()
 st_faker.markdown()
+st_faker.selectbox()
+st_faker.slider()
+st_faker.map()
 
