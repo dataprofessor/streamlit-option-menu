@@ -32,4 +32,4 @@ st.write('**You are here:**', selected2)
 st.title('🎈 streamlit-option-menu')
 
 st_faker.markdown()
-st_faker.image()
+
