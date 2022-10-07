@@ -2,3 +2,4 @@ streamlit
 streamlit-option-menu
 streamlit-faker
 faker
+matplotlib
